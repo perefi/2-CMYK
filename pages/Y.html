@@ -1,0 +1,49 @@
+<!--especificació html5-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Y</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            *{
+            padding: 0;
+            margin: 0;
+            }
+            @font-face{
+                font-family:'oswald';
+                src:url('../fonts/oswald/Oswald-Bold-Cut.svg'),
+                    url('../fonts/oswald/Oswald-Bold-Cut.eot'),
+                    url('../fonts/oswald/Oswald-Bold-Cut.ttf'),
+                    url('../fonts/oswald/Oswald-Bold-Cut.woff');
+            }
+            body{
+            font-family:'oswald';
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
+            p{
+                position: fixed;
+            }
+            img ~ a>p{
+                top: 10px;
+                left: 10px;
+            }
+            a[alt="K"] p{
+                width: 80px;
+                height: 20px;
+                background-color: azure;
+                top: 90%;
+                left: 90%;
+                bottom: 10px;
+                right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="../img/y.jpg">
+        <a href="../index.html"><p>M</p></a>
+        <a alt="K" href="K.html"><p>K</p></a>
+    </body>
+</html>
